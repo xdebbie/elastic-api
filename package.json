@@ -1,0 +1,29 @@
+{
+  "name": "elastic-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdebbie/elastic-api.git"
+  },
+  "author": "Deborah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdebbie/elastic-api/issues"
+  },
+  "homepage": "https://github.com/xdebbie/elastic-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "typescript": "^5.0.4"
+  }
+}
